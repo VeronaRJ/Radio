@@ -1,0 +1,25 @@
+Added Component: Designator=J2(CON20_2X10_DUA_C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_UL_Team"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "C"; Value = "Copyright (C) 2015 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CLP-110-02-L-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Value"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Samtec Inc"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=J2-1
+Added Pin To Net: NetName=5V Pin=J2-2
+Added Net: Name=5V
+Added Pin To Net: NetName=DF_S_RX Pin=J2-7
+Added Net: Name=DF_S_RX
+Added Pin To Net: NetName=DF_S_TX Pin=J2-6
+Added Net: Name=DF_S_TX
+Added Pin To Net: NetName=GND Pin=J2-3
+Added Pin To Net: NetName=GND Pin=J2-4
+Added Net: Name=GND
+Added Pin To Net: NetName=QuakeEnable Pin=J2-5
+Added Net: Name=QuakeEnable
+Change Class Name : Old Net Name=TopV4 New Net Name=Radio
+Added Member To Class: ClassName=Radio Member=Component J2 CLP-110-02-L-D
+Change Room Name: Old Name=TopV4 New Name=Radio
+Change Room Scope: Old Scope=InComponentClass('TopV4') New Scope=InComponentClass('Radio')
